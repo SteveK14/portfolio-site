@@ -17,6 +17,10 @@ video {
     max-width: 100%;
 }
 
+header {
+    border-bottom: 10px solid #bfbfbf;
+}
+
 h1,
 h2,
 h3,
@@ -47,12 +51,6 @@ h4  {
     font-size: 1.8em;
 }
 
-hr {
-    border: none;
-    height: 4px;
-    background-color: #bfbfbf;
-}
-
 p {
     font-family: "Boogaloo", cursive;
     font-size: 1.75em;
@@ -60,7 +58,7 @@ p {
 }
 
 a {
-    color: black;
+    color: #000;
 }
 
 #hero {
