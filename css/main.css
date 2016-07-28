@@ -18,7 +18,8 @@ video {
 }
 
 header {
-    border-bottom: 10px solid #bfbfbf;
+    border-bottom: 4px solid #bfbfbf;
+    padding:10px 0;
 }
 
 h1,
@@ -63,6 +64,7 @@ a {
 
 #hero {
     max-height: 500px;
+    padding-top: 10px;
     width: 100%;
 }
 
