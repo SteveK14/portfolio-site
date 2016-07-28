@@ -1,0 +1,115 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #cce6ff;
+    font-family: "Bangers", cursive;
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    letter-spacing: 2px;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3.2em;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2.4em;
+}
+
+h4  {
+    font-size: 1.8em;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background-color: #bfbfbf;
+}
+
+p {
+    font-family: "Boogaloo", cursive;
+    font-size: 1.75em;
+    margin: 0 15px 10px;
+}
+
+a {
+    color: black;
+}
+
+#hero {
+    max-height: 500px;
+    width: 100%;
+}
+
+#logo {
+    border-radius: 25px;
+    height: auto;
+    margin-top: 20px;
+    max-height: 125px;
+    max-width: 175px;
+    width: auto;
+}
+
+.center-window {
+    margin-bottom: 20px;
+}
+
+.window {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.window-panel {
+    height: 250px;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.big-pic {
+    height: 500px;
+    width: 100%;
+}
+
+footer {
+    background: #bfbfbf;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.footer-logo {
+    min-width: 48px;
+    min-height: 48px;
+    padding: 5px;
+}
+
+.small-display{
+    text-align: center;
+}
